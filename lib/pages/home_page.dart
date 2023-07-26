@@ -147,8 +147,8 @@ var images = {
                       children: [
                         Container(
                           // margin: const EdgeInsets.only(right: 50),
-                          width: 65,
-                          height: 65,
+                          width: 60,
+                          height: 60,
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(20),
                             color: Colors.white,
