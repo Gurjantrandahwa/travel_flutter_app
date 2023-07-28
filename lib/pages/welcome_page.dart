@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:travel_app/cubit/app_cubits.dart';
@@ -66,8 +65,12 @@ class _WelcomePageState extends State<WelcomePage> {
                           },
                           child: Container(
                             width: 180,
-                            child: ResponsiveButton(
-                              width: 100,
+                            child: Row(
+                              children: [
+                                ResponsiveButton(
+                                  width: 100,
+                                ),
+                              ],
                             ),
                           ),
                         )
